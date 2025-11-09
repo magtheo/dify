@@ -1381,8 +1381,6 @@ networks:
   opensearch-net:
     driver: bridge
     internal: true
-  dify_weaviate_network:
-    driver: bridge
 
 volumes:
   oradata:
